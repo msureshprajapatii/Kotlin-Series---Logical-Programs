@@ -6,7 +6,7 @@ fun main() {
     var reverse = 0
 
     for (i in originalNumbers.toString()){
-        reverse += i.toString().toInt()
+        reverse = i.toString().toInt()
     }
 
     println(reverse)

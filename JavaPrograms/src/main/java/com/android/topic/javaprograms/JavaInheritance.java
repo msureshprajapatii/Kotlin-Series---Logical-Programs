@@ -2,7 +2,7 @@ package com.android.topic.javaprograms;
 
 class JavaInheritance {
     public static void main(String[] args) {
-        CC aa = new CC();
+        AA aa = new BB();
         aa.show();
     }
 }
@@ -25,6 +25,7 @@ class BB extends AA {
 
 class CC extends BB {
     static  String Aaa = "this is string CC";
+
     void show(){
         System.out.println("CC : Show");
     }
