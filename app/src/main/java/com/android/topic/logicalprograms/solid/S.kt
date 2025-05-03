@@ -2,6 +2,7 @@ package com.android.topic.logicalprograms.solid
 
 /*
  || Single Responsibility Principle ||
+ -------------------------------------
 - S for Single Responsibility Principle
 - A class should have only one responsibility or one reason to change
 - For example if i have class for email validation then that class should only perform for
