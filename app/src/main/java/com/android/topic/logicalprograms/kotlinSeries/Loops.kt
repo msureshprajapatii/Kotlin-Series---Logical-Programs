@@ -4,8 +4,16 @@ package com.android.topic.logicalprograms.kotlinSeries
 
 fun main() {
 
+    val colorsName = listOf("Black","White","Yellow","Blue","Pink","Orange")
+
     println("Normal for loop")
+    for(color in colorsName){
+        println(color)
+    }
+
+    println("Range for loop")
     //(1) Normal for loop with increment 1 value
+    // This is Range loop
     for (i in 1..10) {
         println(i)
     }
